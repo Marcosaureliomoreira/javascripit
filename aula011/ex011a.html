@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    Digite o País de origem:<input type="text" name="txt" id="txt">
+    <input type="button" value="verificando" onclick="pais()">
+    
+    <div id="resultado">
+
+    </div>
+
+    <script>
+        var tx = window.document.getElementById('resultado')
+
+        function pais() {
+            var tx = window.document.getElementById('resultado')
+            var resultado = window.document.getElementById('resultado')
+            var v = (tx.value)
+            resultado.innerHTML = `Seu País de origem é: <strong>${v}</strong>`
+           
+           /* if (v == 'Brasil') {
+                resultado.innerHTML += `Você é Brasileiro!`
+            }
+
+            else {
+                resultado.innerHTML += `Você é Estrangeiro`
+            }
+            */
+        }
+
+        
+    </script>
+
+</body>
+</html>
