@@ -21,15 +21,10 @@ section {
 }
 
 img {
-    padding: 10px;
-    height: 200px;
-    width: 220px;
     border-radius: 50%;
-}
-
-div {
-    text-align: center;
-    
+    width: 250px;
+    height: 220px;
+    padding: 10px;
 }
 
 footer {
@@ -37,4 +32,3 @@ footer {
     text-align: center;
     font-style: italic;
 }
-
