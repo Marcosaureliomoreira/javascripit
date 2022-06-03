@@ -21,6 +21,8 @@ function adicionar() {
                 i.value = `${analise}`
                 analise.appendChild(i)
                 res.innerHTML = ''
+                num.value = ''
+                n.focus() // vai adicionar o número e o cursor voltará a piscar.
 
             }
             else {
@@ -51,7 +53,4 @@ function finalizar() {
         res.innerHTML = ''
         window.alert('Adicione números para finalizar!')
     }
-
-    
-
 }
