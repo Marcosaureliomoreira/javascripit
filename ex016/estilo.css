@@ -20,6 +20,11 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.344);
 }
 
+div#res {
+    margin-top: 10px;
+    line-height: 2em;
+}
+
 footer {
     color: white;
     text-align: center;
